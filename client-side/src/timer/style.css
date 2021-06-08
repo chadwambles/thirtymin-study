@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&display=swap");
+:root {
+  --number_font: "Press Start 2P", cursive;
+  --header_font: "Josefin Sans", sans-serif;
+}
+
+.pomodoro {
+  background-color: #afffc0;
+  text-align: center;
+  font-size: 12px;
+  font-family: var(--number_font);
+  max-width: 300px;
+  max-height: 150px;
+  margin: auto;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
